@@ -11,22 +11,22 @@ function Nav(props) {
             <nav>
                 <ul className ="flex-row">
                     <li className="mx-3">
-                        <a href="#about">
+                        <a href="about">
                             About Me
                         </a>
                     </li>
                     <li className="mx-3">
-                        <a href="#projects">
+                        <a href="projects">
                             Projects
                         </a>
                     </li>
                     <li className="mx-3">
-                        <a href="#github">
+                        <a href="https://github.com/MBadi089">
                             My GitHub
                         </a>
                     </li>
                     <li className="mx-3">
-                        <a href="#contact">
+                        <a href="contact">
                             Contact Me
                         </a>
                     </li>
