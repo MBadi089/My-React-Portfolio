@@ -28,26 +28,34 @@ function Nav(props) {
             </h2>
             <nav>
                 <ul className ="flex-row">
+                    {categories.map(page =>(
                     <li className="mx-3">
                         <a href="about">
-                            About Me
+                            ${page.name}
                         </a>
                     </li>
+                    ))}
+                    {categories.map(page =>(
                     <li className="mx-3">
                         <a href="projects">
-                            Projects
+                            ${page.name}
                         </a>
                     </li>
+                    ))}
+                    {categories.map(page =>(
                     <li className="mx-3">
                         <a href="https://github.com/MBadi089">
-                            My GitHub
+                            ${page.name}
                         </a>
                     </li>
+                    ))}
+                    {categories.map(page => (
                     <li className="mx-3">
                         <a href="contact">
-                            Contact Me
+                            ${page.name}
                         </a>
                     </li>
+                    ))}
                 </ul>
             </nav>            
         </header>
