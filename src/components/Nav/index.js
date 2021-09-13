@@ -2,6 +2,7 @@ import React from "react";
 import { capitalizeFirstLetter } from "../../utils/helpers";
 
 function Nav(props) {
+
     const categories =[
 {
     name: "about",
@@ -21,6 +22,8 @@ function Nav(props) {
 },
     ];
 
+
+
     return (
         <header>
             <h2>
@@ -30,29 +33,8 @@ function Nav(props) {
                 <ul className ="flex-row">
                     {categories.map(page =>(
                     <li className="mx-3">
-                        <a href="about">
-                            ${page.name}
-                        </a>
-                    </li>
-                    ))}
-                    {categories.map(page =>(
-                    <li className="mx-3">
-                        <a href="projects">
-                            ${page.name}
-                        </a>
-                    </li>
-                    ))}
-                    {categories.map(page =>(
-                    <li className="mx-3">
-                        <a href="https://github.com/MBadi089">
-                            ${page.name}
-                        </a>
-                    </li>
-                    ))}
-                    {categories.map(page => (
-                    <li className="mx-3">
-                        <a href="contact">
-                            ${page.name}
+                        <a onClick={props.testState}>
+                            {page.name}
                         </a>
                     </li>
                     ))}

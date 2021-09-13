@@ -4,9 +4,17 @@ import Nav from './components/Nav';
 import './App.css';
 
 function App() {
+  //check the value of current page
+  //conditionally return the page that matches the current page
+  //fake use state
+
+  function mynewFunction() {
+    console.log("helloooo")
+  };
+
   return (
     <div>
-      <Nav></Nav>
+      <Nav testState={mynewFunction}></Nav>
       <main>
         <About></About>
       </main>
