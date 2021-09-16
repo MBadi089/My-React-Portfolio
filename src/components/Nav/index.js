@@ -33,7 +33,7 @@ function Nav(props) {
                 <ul className ="flex-row">
                     {categories.map(page =>(
                     <li className="mx-3">
-                        <a onClick={props.testState}>
+                        <a onClick={props.currentPage}>
                             {page.name}
                         </a>
                     </li>

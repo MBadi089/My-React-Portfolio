@@ -1,20 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import About from './components/About';
 import Nav from './components/Nav';
-import './App.css';
 
 function App() {
   //check the value of current page
   //conditionally return the page that matches the current page
   //fake use state
+  const [currentPage, setcurrentPage] = useState()
 
-  function mynewFunction() {
-    console.log("helloooo")
-  };
 
   return (
     <div>
-      <Nav testState={mynewFunction}></Nav>
+      <Nav currentPage={currentPage} />
       <main>
         <About></About>
       </main>
