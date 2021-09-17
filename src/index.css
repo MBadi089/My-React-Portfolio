@@ -53,10 +53,11 @@ overflow: scroll;
 /* this targets the project images and styles them */
 .cardImage {
     border: 2px solid lightblue;
-    border-radius: 5px;
+    border-radius: 15px;
     list-style: none;
     display: block;
-    margin: 10px 0 10px 0;    
+    margin: 10px 0 10px 0;
+    padding: 25px;    
 }
 /* --------------------------End of Project Section----------------------- */
 
