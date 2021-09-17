@@ -1,23 +1,25 @@
-import React, { useState } from 'react';
+//import React, { useState } from 'react';
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Nav from './components/Nav';
+import Homepage from './components/Homepage';
 import About from './components/About';
+import Projects from './components/Projects';
+import Github from './components/Github';
 import Contact from './components/Contact';
 
 function App() {
-  //check the value of current page
-  //conditionally return the page that matches the current page
-  //fake use state
-  const [currentPage, setcurrentPage] = useState()
-
-
+ 
   return (
     <Router>
       <div>
         <Nav />
-          <Route path="/about" component={About} />
-          <Route path="/contact" component={Contact} />
-        
+        <Switch>
+          <Route path="/" exact component={Homepage}/>
+          <Route path="/about" component={About}/>
+          <Route path="/projects" component={Projects}/>
+          <Route path="/github" components={Github}/>
+          <Route path="/contact" component={Contact}/>
+        </Switch>
       </div>
     </Router>
   );
