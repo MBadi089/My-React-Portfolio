@@ -1,6 +1,6 @@
 import React from 'react'
 import img1 from '../../images/UTA-Project3.png';
-import img2 from '../../images/UTA-Project2.png'
+import img2 from '../../images/UTA-Project2.png';
 
 export default function Projects() {
     return (
