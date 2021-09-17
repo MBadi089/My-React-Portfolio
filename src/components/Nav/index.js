@@ -18,10 +18,6 @@ function Nav() {
                     <li>Projects</li>
                 </Link>
 
-                <Link to="/github">
-                    <li>Github</li>
-                </Link>
-
                 <Link to="/contact">
                     <li>Contact Me</li>
                 </Link>
