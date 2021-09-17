@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import About from './components/About';
 import Nav from './components/Nav';
+import Contact from './components/Contact';
 
 function App() {
   //check the value of current page
@@ -14,6 +15,7 @@ function App() {
       <Nav currentPage={currentPage} />
       <main>
         <About></About>
+        <Contact></Contact>
       </main>
     </div>
   );
