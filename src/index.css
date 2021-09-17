@@ -1,0 +1,28 @@
+.App {
+    text-align: center;
+}
+/* ------------------------------The Nav Bar------------------------------ */
+
+/* this targets the nav background and styles it */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 15vh;
+    background: lightblue;
+    color: white;
+}
+/* this targets the nav links inside the nav background and styles it */
+.nav-links {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+/* this targets each list item in the link and styles it */
+li {
+    font-size: 30px;
+    color: black;
+}
+/* ----------------------------End of The Nav Bar------------------------- */

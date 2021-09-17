@@ -1,5 +1,6 @@
 //import React, { useState } from 'react';
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import './index.css';
 import Nav from './components/Nav';
 import Homepage from './components/Homepage';
 import About from './components/About';
