@@ -1,5 +1,5 @@
 import React from 'react'
-import img from './ProjectImages';
+import img from '../../../public/ProjectImages';
 
 export default function Projects() {
     return (
