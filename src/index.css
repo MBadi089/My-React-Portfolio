@@ -45,7 +45,7 @@ li {
 /* -----------------------------Project Section--------------------------- */
 
 /* this targets all the projects for styling */
-.container {
+.project-container {
 /* background-color: lightblue; */
 overflow: scroll;
 }
