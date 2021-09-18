@@ -16,33 +16,40 @@ html, body {
 /* ------------------------------The Nav Bar------------------------------ */
 
 /* this targets the nav background and styles it */
-nav {
-    display: flex;
+.nav-container {
     justify-content: space-around;
     align-items: center;
     min-height: 15vh;
-    background: lightblue;
-    color: white;
+    background: dodgerblue;
+    text-align: center;
 }
-/* this targets the nav links inside the nav background and styles it */
-.container-links {
-    width: 40%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+
+/* this targets the section around headerName */
+.headerName {
+    display: flex;    
+}
+
+/* this targets the Marcos Badillo text and styles it */
+.myName-link {
+    font-size: 50px;
+    color: white;
     list-style: none;
 }
 
-/* this targets the Marcos Badillo link and styles it */
-.myName-link {
-    font-size: 45px;
-    color: black;
+/* this targets the nav links inside the nav background and styles it */
+.container-links {
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;    
 }
 
 /* this targets the About Me, Projects, Certificate Contact Me links */
 .nav-link {
     font-size: 30px;
-    color: black;
+    color: white;
+    list-style: none;
 }
 /* ----------------------------End of The Nav Bar------------------------- */
 
@@ -82,7 +89,7 @@ h2 {
 .about-container img {
     margin-top: 2rem;
     margin-bottom: 2rem;
-    border: 6px solid lightblue;
+    border: 6px solid dodgerblue;
     border-radius: 8px;
     width: 500px;
     height: 600px;
@@ -126,7 +133,7 @@ overflow: scroll;
 /* this targets the project images and styles them */
 .project-container img {
     border-radius: 15px;
-    border: 6px solid lightblue;
+    border: 6px solid dodgerblue;
     width: 700px;
     height: 400px;
 }
@@ -160,7 +167,7 @@ overflow: scroll;
 /* this targets the project images and styles them */
 .certificate-container img {
     border-radius: 15px;
-    border: 6px solid lightblue;
+    border: 6px solid dodgerblue;
     width: 900px;
     height: 600px;
 }
