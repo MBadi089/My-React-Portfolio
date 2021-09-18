@@ -19,9 +19,9 @@ html, body {
 .nav-container {
     justify-content: space-around;
     align-items: center;
-    min-height: 15vh;
-    background: dodgerblue;
     text-align: center;
+    min-height: 15vh;
+    background: dodgerblue;    
 }
 
 /* this targets the section around headerName */
