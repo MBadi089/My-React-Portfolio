@@ -50,14 +50,20 @@ li {
 overflow: scroll;
 }
 
-/* this targets the project images and styles them */
+/* this targets the project images */
 .cardImage {
-    border: 2px solid lightblue;
-    border-radius: 15px;
     list-style: none;
-    display: block;
+    display: inline;
     margin: 10px 0 10px 0;
-    padding: 25px;    
+    padding: 25px 25px;    
+}
+
+/* this targets the project images and styles them */
+img {
+    border-radius: 15px;
+    border: 6px solid lightblue;
+    width: 700px;
+    height: 400px;
 }
 /* --------------------------End of Project Section----------------------- */
 
