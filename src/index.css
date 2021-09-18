@@ -25,15 +25,22 @@ nav {
     color: white;
 }
 /* this targets the nav links inside the nav background and styles it */
-.nav-links {
+.container-links {
     width: 40%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     list-style: none;
 }
-/* this targets each list item in the link and styles it */
-li {
+
+/* this targets the Marcos Badillo link and styles it */
+.myName-link {
+    font-size: 45px;
+    color: black;
+}
+
+/* this targets the About Me, Projects, Certificate Contact Me links */
+.nav-link {
     font-size: 30px;
     color: black;
 }
@@ -52,7 +59,7 @@ li {
 .about-container {
     margin: 0 auto;
     padding: 0 3rem;
-    margin-top: 4rem;
+    margin-top: 1rem;
     text-align: center;
 }
 
@@ -78,7 +85,7 @@ h2 {
     border: 6px solid lightblue;
     border-radius: 8px;
     width: 500px;
-    height: 500px;
+    height: 600px;
 }
 
 /* this targets the p (the paragraph about me) */
@@ -134,7 +141,7 @@ overflow: scroll;
 .certificate-container {
     margin: 0 auto;
     padding: 0 3rem;
-    margin-top: 4rem;
+    margin-top: 1rem;
     text-align: center;
     }
 /* this targets the h1 text (My Projects) */

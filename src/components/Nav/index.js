@@ -5,25 +5,25 @@ import { capitalizeFirstLetter } from "../../utils/helpers";
 function Nav() {
     return (
         <nav>
-            <ul className="nav-links">
+            <ul className="container-links">
                 <Link to="/">
-                    <li>Marcos Badillo</li>
+                    <li className="myName-link">Marcos Badillo</li>
                 </Link>
 
                 <Link to="/about">
-                    <li>About Me</li>
+                    <li className="nav-link">About Me</li>
                 </Link>
 
                 <Link to="/projects">
-                    <li>Projects</li>
+                    <li className="nav-link">Projects</li>
                 </Link>
 
                 <Link to="/certificate">
-                    <li>Certificate</li>
+                    <li className="nav-link">Certificate</li>
                 </Link>
 
                 <Link to="/contact">
-                    <li>Contact Me</li>
+                    <li className="nav-link">Contact Me</li>
                 </Link>
             </ul>
         </nav>
