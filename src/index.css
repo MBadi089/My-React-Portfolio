@@ -17,6 +17,7 @@ html, body {
 
 /* this targets the nav background and styles it */
 .nav-container {
+    display: flex;
     justify-content: space-around;
     align-items: center;
     text-align: center;
@@ -26,30 +27,49 @@ html, body {
 
 /* this targets the section around headerName */
 .headerName {
-    display: flex;    
+    display: flex;
+    text-align: left;
+    width: 40%;      
 }
 
 /* this targets the Marcos Badillo text and styles it */
 .myName-link {
-    font-size: 50px;
+    font-size: 60px;
     color: white;
     list-style: none;
+    padding: 15px 15px;
+}
+
+/* this targets Marcos Badillo text with hover style it */
+.myName-link:hover {
+    border-radius: 15px;
+    background: white;
+    color: black;
 }
 
 /* this targets the nav links inside the nav background and styles it */
 .container-links {
     display: flex;
-    width: 30%;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    list-style: none;    
+    list-style: none; 
+    text-align: right;   
 }
 
-/* this targets the About Me, Projects, Certificate Contact Me links */
+/* this targets the About Me, Projects, Cert, Contact Me links */
 .nav-link {
-    font-size: 30px;
+    font-size: 40px;
     color: white;
     list-style: none;
+    padding: 15px 15px;
+}
+
+/* this targets the About Me, Projects, Cert, Contact Me with hover style */
+.nav-link:hover {
+    border-radius: 15px;
+    background: white;
+    color: black;
 }
 /* ----------------------------End of The Nav Bar------------------------- */
 
