@@ -41,7 +41,7 @@ function handleSubmit(e) {
 return (
     <section>
         <h1>Contact Me</h1>
-        <form id="contact-form" onSubmit={handleSubmit}>
+        <form className="contact-form" onSubmit={handleSubmit}>
             <div>
                 <label htmlFor="name">Name:</label>
                 <input type="text" defaultValue={name} onChange={handleChange} name="name" />
