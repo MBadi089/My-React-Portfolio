@@ -88,14 +88,13 @@ p {
     line-height: 5rem;
     margin-bottom: 5rem;
 }
-
 /* -------------------------End of About Me Section----------------------- */
 
 /* ======================================================================= */
 
 /* -----------------------------Project Section--------------------------- */
 
-/* this targets all the projects for styling */
+/* this targets all the projects container for styling */
 .project-container {
 margin: 0 auto;
 padding: 0 3rem;
@@ -130,6 +129,34 @@ overflow: scroll;
 
 
 /* --------------------------Certificate Section-------------------------- */
+
+/* this targets the certificate container for styling */
+.certificate-container {
+    margin: 0 auto;
+    padding: 0 3rem;
+    margin-top: 4rem;
+    text-align: center;
+    }
+/* this targets the h1 text (My Projects) */
+.mycertificate {
+    text-align: center;
+}
+
+/* this targets the project images */
+.certImage {
+    list-style: none;
+    display: inline;
+    margin: 10px 0 10px 0;
+    padding: 25px 25px;     
+}
+
+/* this targets the project images and styles them */
+.certificate-container img {
+    border-radius: 15px;
+    border: 6px solid lightblue;
+    width: 900px;
+    height: 600px;
+}
 /* -----------------------End of Certificate Section---------------------- */
 
 /* ======================================================================= */

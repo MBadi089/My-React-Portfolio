@@ -18,6 +18,10 @@ function Nav() {
                     <li>Projects</li>
                 </Link>
 
+                <Link to="/certificate">
+                    <li>Certificate</li>
+                </Link>
+
                 <Link to="/contact">
                     <li>Contact Me</li>
                 </Link>
