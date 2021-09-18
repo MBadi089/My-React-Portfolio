@@ -1,7 +1,16 @@
 .App {
     text-align: center;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+html, body {
+    margin: 0;
+    padding: 0;
+}
 /* ======================================================================= */
 
 /* ------------------------------The Nav Bar------------------------------ */
@@ -38,6 +47,48 @@ li {
 /* ======================================================================= */
 
 /* ----------------------------About Me Section--------------------------- */
+
+/* this targets the whole about me section */
+.about-container {
+    margin: 0 auto;
+    padding: 0 3rem;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+/* this targets the h1 (Marcos Badillo) */
+h1 {
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+/* this targets the h2 (Entry Level Software Developer) */
+h2 {
+    color: black;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+/* this targets the img src */
+.about-container img {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: 6px solid lightblue;
+    border-radius: 8px;
+    width: 500px;
+    height: 500px;
+}
+
+/* this targets the p (the paragraph about me) */
+p {
+    font-size: 25px;
+    color: black;
+    line-height: 5rem;
+    margin-bottom: 5rem;
+}
+
 /* -------------------------End of About Me Section----------------------- */
 
 /* ======================================================================= */
@@ -46,8 +97,16 @@ li {
 
 /* this targets all the projects for styling */
 .project-container {
-/* background-color: lightblue; */
+margin: 0 auto;
+padding: 0 3rem;
+margin-top: 4rem;
+text-align: center;
 overflow: scroll;
+}
+
+/* this targets the h1 text (My Projects) */
+.myprojects {
+    text-align: center;
 }
 
 /* this targets the project images */
@@ -55,17 +114,23 @@ overflow: scroll;
     list-style: none;
     display: inline;
     margin: 10px 0 10px 0;
-    padding: 25px 25px;    
+    padding: 25px 25px;     
 }
 
 /* this targets the project images and styles them */
-img {
+.project-container img {
     border-radius: 15px;
     border: 6px solid lightblue;
     width: 700px;
     height: 400px;
 }
 /* --------------------------End of Project Section----------------------- */
+
+/* ======================================================================= */
+
+
+/* --------------------------Certificate Section-------------------------- */
+/* -----------------------End of Certificate Section---------------------- */
 
 /* ======================================================================= */
 
