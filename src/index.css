@@ -77,8 +77,8 @@ html, body {
 
 /* ----------------------------Homepage Section--------------------------- */
 
-/* this targets the whole about me section */
-.about-container {
+/* this targets the container and structures everything inside of it */
+.homepage-container {
     margin: 0 auto;
     padding: 0 3rem;
     margin-top: 1rem;
@@ -101,7 +101,7 @@ h2 {
 }
 
 /* this targets the img src */
-.about-container img {
+.homepage-container img {
     margin-top: 2rem;
     margin-bottom: 2rem;
     border: 6px solid dodgerblue;
@@ -123,8 +123,13 @@ p {
 
 /* ----------------------------My Skills Section--------------------------- */
 
+/* this targets the container and structures everything inside of it */
 .skills-container {
   display: inline-block;
+  margin: 0 auto;
+padding: 0 3rem;
+margin-top: 2rem;
+overflow: scroll;
 }
 
 /* this targets the h1 text (My Skills) */
@@ -167,7 +172,7 @@ p {
 
 /* -----------------------------Project Section--------------------------- */
 
-/* this targets all the projects container for styling */
+/* this targets the container and structures everything inside of it */
 .project-container {
 margin: 0 auto;
 padding: 0 3rem;
@@ -202,7 +207,7 @@ overflow: scroll;
 
 /* --------------------------Certificate Section-------------------------- */
 
-/* this targets the certificate container for styling */
+/* this targets the container and structures everything inside of it */
 .certificate-container {
     margin: 0 auto;
     padding: 0 3rem;
