@@ -15,7 +15,7 @@ function Nav() {
             <ul>
                 <div className="container-links">
                     <Link to="/about" style={{ textDecoration: 'none' }}>
-                        <li className="nav-link">About Me</li>
+                        <li className="nav-link">My Skills</li>
                     </Link>
 
                     <Link to="/projects" style={{textDecoration: 'none'}}>
