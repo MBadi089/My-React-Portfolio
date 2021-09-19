@@ -7,7 +7,7 @@ import imgLogo4 from '../../images/cssLogo.png';
 export default function Skills() {
     return (
         <div className ="skills-container">
-            <h1>My Skills</h1>
+            <h1 className="myskills">My Skills</h1>
 
             <section className="imageLeft">
                 <img src={imgLogo1}/>

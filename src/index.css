@@ -127,6 +127,11 @@ p {
   display: inline-block;
 }
 
+/* this targets the h1 text (My Skills) */
+.myskills {
+    text-align: center;
+}
+
 /* this targets each img and styles it */
 .skills-container img {
     height: 300px;
