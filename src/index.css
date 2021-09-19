@@ -124,7 +124,7 @@ p {
 /* ----------------------------My Skills Section--------------------------- */
 
 .skills-container {
-    
+  display: inline-block;
 }
 
 /* this targets each img and styles it */
@@ -133,22 +133,28 @@ p {
     width: 300px;
 }
 
-/* this targets only the images on the left side of page */
+/* this targets the images on the left side of page */
 .imageLeft {
    float: left;
+   margin-left: 20%;
 }
 
-/* this targets only the images on the right side of page */
-.imageRight {
-    float: right;
-}
-
+/* this targets the text for the right side of page */
 .textRight {
     float: right;
+    margin-right: 20%;
 }
 
+/* this targets the images on the right side of page */
+.imageRight {
+    float: right;
+    margin-right: 20%;
+}
+
+/* this targets the text on the left side of page */
 .textLeft {
     float: left;
+    margin-left: 20%;
 }
 /* -------------------------End of My Skills Section----------------------- */
 
