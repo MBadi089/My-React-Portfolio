@@ -123,6 +123,10 @@ p {
 
 /* ----------------------------My Skills Section--------------------------- */
 
+.skills-container {
+    
+}
+
 /* this targets each img and styles it */
 .skills-container img {
     height: 300px;
@@ -131,12 +135,20 @@ p {
 
 /* this targets only the images on the left side of page */
 .imageLeft {
-    float: left;
+   float: left;
 }
 
 /* this targets only the images on the right side of page */
 .imageRight {
     float: right;
+}
+
+.textRight {
+    float: right;
+}
+
+.textLeft {
+    float: left;
 }
 /* -------------------------End of My Skills Section----------------------- */
 
