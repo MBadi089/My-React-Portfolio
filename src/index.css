@@ -139,24 +139,24 @@ p {
 }
 
 /* this targets each img and styles it */
-.skills-container img {
-    height: 600px;
-    width: 150px;
-}
+/* .skills-container img {
+    height: 20px;
+    width: 20px;
+} */
 
 /* this targets each row in the <section>'s */
 .row {
     display: flex;
     /* background-color: blue; */
-    padding: 20px 20px;
+    /* padding: 20px 20px; */
 }
 
 /* this targets each column in the <section>'s */
 .col {
     flex: 50%;
-    padding: 10px 10px;
+    /* padding: 10px 10px; */
     /* background-color: red; */
-    height: 50px;
+    /* height: 50px; */
 }
 /* -------------------------End of My Skills Section----------------------- */
 
