@@ -136,12 +136,6 @@ p {
     text-align: center;
 }
 
-/* this targets each img and styles it  */
-.skills-container img {
-    height: 200px;
-    width: 210px;
-}
-
 /* this targets each row in the <section>'s */
 .row {
     width: 100%;
@@ -154,8 +148,15 @@ p {
     padding: 10px 20px;
 }
 
+/* this targets the text inside the <p> in the <section>'s */
 .skills-container p {
     font-size: 20px;
+}
+
+/* this targets each img and styles it  */
+.skills-container img {
+    height: 200px;
+    width: 210px;
 }
 /* -------------------------End of My Skills Section----------------------- */
 
