@@ -125,46 +125,38 @@ p {
 
 /* this targets the container and structures everything inside of it */
 .skills-container {
-  display: inline-block;
-  margin: 0 auto;
-padding: 0 3rem;
-margin-top: 2rem;
-overflow: scroll;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 20px 20px;
+    /* background-color: red; */
+    /* margin-top: 1px; */
+    align-items: center;
 }
 
-/* this targets the h1 text (My Skills) */
-.myskills {
+/* this centers the text for each <section> */
+.myskills, .headerName, .textRight {
     text-align: center;
 }
 
 /* this targets each img and styles it */
 .skills-container img {
-    height: 300px;
-    width: 300px;
+    height: 600px;
+    width: 150px;
 }
 
-/* this targets the images on the left side of page */
-.imageLeft {
-   float: left;
-   margin-left: 20%;
+/* this targets each row in the <section>'s */
+.row {
+    display: flex;
+    /* background-color: blue; */
+    padding: 20px 20px;
 }
 
-/* this targets the text for the right side of page */
-.textRight {
-    float: right;
-    margin-right: 20%;
-}
-
-/* this targets the images on the right side of page */
-.imageRight {
-    float: right;
-    margin-right: 20%;
-}
-
-/* this targets the text on the left side of page */
-.textLeft {
-    float: left;
-    margin-left: 20%;
+/* this targets each column in the <section>'s */
+.col {
+    flex: 50%;
+    padding: 10px 10px;
+    /* background-color: red; */
+    height: 50px;
 }
 /* -------------------------End of My Skills Section----------------------- */
 
