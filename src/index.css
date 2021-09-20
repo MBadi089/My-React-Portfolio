@@ -138,19 +138,24 @@ p {
 
 /* this targets each img and styles it  */
 .skills-container img {
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 210px;
 }
 
 /* this targets each row in the <section>'s */
 .row {
     width: 100%;
     display: flex;
+    border-bottom: 2px solid black;
 }
 
 /* this targets each column in the <section>'s */
 .col {
-    width: 50%;
+    padding: 10px 20px;
+}
+
+.skills-container p {
+    font-size: 20px;
 }
 /* -------------------------End of My Skills Section----------------------- */
 
