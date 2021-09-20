@@ -9,7 +9,7 @@ export default function Skills() {
         <div className ="skills-container">
             <h1 className="myskills">My Skills</h1>
 
-            <section className="imageLeft row">
+            <section className="row">
                 <img src={imgLogo1} className="col"/>
                 <div className="textRight col">
                     <h1 className="headerName">React</h1>
@@ -17,7 +17,7 @@ export default function Skills() {
                 </div>
             </section>
 
-            <section className="imageRight row">                
+            <section className="row">                
                 <div className="textLeft col">
                     <h1 className="headerName">Javascript</h1>
                     <p>JavaScript is a scripting or programming language that allows you to implement complex features on web pages</p>
@@ -26,7 +26,7 @@ export default function Skills() {
                 
             </section>
 
-            <section className="imageLeft row">
+            <section className="row">
                 <img src={imgLogo3} className="col"/>
                 <div className="textRight col">
                     <h1 className="headerName">HTML</h1>
@@ -34,7 +34,7 @@ export default function Skills() {
                 </div>
             </section>
 
-            <section className="imageRight row">                
+            <section className="row">                
                 <div className="textLeft col">
                     <h1 className="headerName">CSS</h1>
                     <p>Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</p>

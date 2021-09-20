@@ -127,12 +127,13 @@ p {
 .skills-container {
     display: inline-block;
     margin: 0 auto;
-    padding: 20px 20px;
+    padding: 10px 10px;
     align-items: center;
+    overflow: scroll;
 }
 
 /* this centers the text for each <section> */
-.myskills, .headerName, .textRight {
+.myskills, .headerName{
     text-align: center;
 }
 
@@ -155,8 +156,9 @@ p {
 
 /* this targets each img and styles it  */
 .skills-container img {
-    height: 200px;
-    width: 210px;
+    margin-top: 3rem;
+    height: 210px;
+    width: 220px;
 }
 /* -------------------------End of My Skills Section----------------------- */
 
