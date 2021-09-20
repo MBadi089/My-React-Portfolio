@@ -21,8 +21,9 @@ export default function Skills() {
                 <div className="col">
                 <h1 className="headerName">Javascript</h1>
                 <p className="textLeft">JavaScript is a scripting or programming language that allows you to implement complex features on web pages</p>
-                <img src={imgLogo2} className="col"/>
                 </div>
+                <img src={imgLogo2} className="col"/>
+                
             </section>
 
             <section className="imageLeft row">
@@ -37,8 +38,9 @@ export default function Skills() {
                 <div className="col">
                 <h1 className="headerName">CSS</h1>
                 <p className="textLeft">Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</p>
-                <img src={imgLogo4} className="col"/>
                 </div>
+                <img src={imgLogo4} className="col"/>
+                
             </section>
         </div>
     )
