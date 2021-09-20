@@ -11,21 +11,25 @@ export default function Skills() {
 
             <section className="imageLeft">
                 <img src={imgLogo1}/>
+                <h1>React</h1>
                 <p className="textRight">asdfasdfasdfasdfasdfasdf</p>
             </section>
 
             <section className="imageRight">
                 <img src={imgLogo2}/>
+                <h1>Javascript</h1>
                 <p className="textLeft">asdfasdfasdfasdfasdf</p>
             </section>
 
             <section className="imageLeft">
                 <img src={imgLogo3}/>
+                <h1>HTML</h1>
                 <p className="textRight">asfasdfasdfasdfasd</p>
             </section>
 
             <section className="imageRight">
                 <img src={imgLogo4}/>
+                <h1>CSS</h1>
                 <p className="textLeft">asdfasdfasdfasdfa</p>
             </section>
         </div>
