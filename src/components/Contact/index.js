@@ -1,67 +1,25 @@
-import React, { useState } from "react";
-import { validateEmail } from "../../utils/helpers";
+import React from 'react'
+import emailjs from 'emailjs-com';
 
-function ContactForm() {
-const [formState, setFromState] = useState({ name: '', email: '', message: '' });
-const { name, email, message } = formState;
-const [errorMessage, setErrorMessage] = useState('');
+export default function ContactMe() {
+    
+    function sendEmail(e) {
+        e.preventDefault();
 
-function handleChange(e) {
-    setFromState({...formState, [e.target.name]: e.target.value })
-
-    if (e.target.name === 'email') {
-        const isValid = validateEmail(e.target.value);
-        console.log(isValid);
-
-        if (!isValid) {
-            setErrorMessage('Your email is invalid');
-        }
-        else {
-            setErrorMessage('');
-        }
+        emailjs.sendForm('gmail', 'gmail_template', form.current, 'user_XsYqdvu1bqpaekVm805ua')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset()
     }
-    else {
-        if (!e.target.value.length) {
-            setErrorMessage(`${e.target.name} is required`);
-        }
-        else {
-            setErrorMessage('');
-        }
-    }
-    if (!errorMessage) {
-        setFromState({...formState, [e.target.name]: e.target.value });
-    }
-}
 
-function handleSubmit(e) {
-    e.preventDefault();
-    console.log(formState);
-}
+    return (
+        <div className="contact-container">
+            <form onSubmit={sendEmail}>
 
-return (
-    <section>
-        <h1>Contact Me</h1>
-        <form className="contact-form" onSubmit={handleSubmit}>
-            <div>
-                <label htmlFor="name">Name:</label>
-                <input type="text" defaultValue={name} onChange={handleChange} name="name" />
-            </div>
-            <div>
-                <label htmlFor="email">Email:</label>
-                <input type="email" defaultValue={email} name="email" onChange={handleChange} />
-            </div>
-            <div>
-                <label htmlFor="message">Message:</label>
-                <textarea name="message" defaultValue={message} onChange={handleChange} rows="5"/>
-            </div>
-            {errorMessage && (
-                <div>
-                    <p className="error-text">{errorMessage}</p>
-                </div>
-            )}
-            <button type="submit">Submit</button>
-        </form>
-    </section>
-);
+            </form>
+        </div>
+    )
 }
-export default ContactForm;
