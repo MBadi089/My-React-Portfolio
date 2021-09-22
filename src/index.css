@@ -263,6 +263,7 @@ overflow: scroll;
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+    outline: none;
 }
 
 .contact-container .form-styling:focus {
