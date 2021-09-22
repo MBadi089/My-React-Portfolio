@@ -17,7 +17,7 @@ export default function ContactMe() {
 
     return (
         <div className="contact-container">
-            <form onSubmit={sendEmail}>
+            <form className="contact-form" onSubmit={sendEmail}>
                 <input type="text" className="form-styling" placeholder="Name" name="name"/>
                 <input type="text" className="form-styling" placeholder="Email Address" name="email"/>
                 <input type="text" className="form-styling" placeholder="Subject" name="subject"/>
