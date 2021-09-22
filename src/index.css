@@ -256,7 +256,7 @@ overflow: scroll;
 .contact-container .form-styling {
     width: 100%;
     padding: 12px;
-    border: 1px solid black;
+    border: 1px solid lightgrey;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
@@ -278,6 +278,9 @@ overflow: scroll;
     border-radius: 4px;
     cursor: pointer;
     box-shadow: 0 9px lightgrey;
+    margin-left: 40%;
+    margin-right: 40%;
+    width: 20%;
 }
 
 /* this targts the send message button with a hover effect */
