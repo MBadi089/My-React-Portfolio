@@ -233,4 +233,63 @@ overflow: scroll;
 /* ======================================================================= */
 
 /* --------------------------Contact Me Section--------------------------- */
+
+/* this targets the container and structures everything inside of it */
+.contact-container {
+    border-radius: 5px;
+    border: 6px solid dodgerblue;
+    padding: 20px;
+    margin-top: 3rem;
+    display: inline-block;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+}
+
+/* this targets the h1 text (Contact Me) */
+.contactMe {
+    text-align: center;
+    color: dodgerblue;
+}
+
+/* this targets the input and textarea with className form-styling */
+.contact-container .form-styling {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+/* this targets the message box and styles the height */
+.contact-container .messageBox {
+    height: 200px;
+}
+
+/* this targets the send message button and styles it */
+.contact-container .btn {
+    background-color: dodgerblue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 9px lightgrey;
+}
+
+/* this targts the send message button with a hover effect */
+.contact-container .btn:hover {
+    background-color: dodgerblue;
+    color: white;
+}
+
+/* this targets the send message button with a click animation */
+.contact-container .btn:active {
+    background-color: dodgerblue;
+    box-shadow: 0 5px lightgrey;
+    transform: translateY(4px);
+}
 /* -----------------------End of Contact MeSection------------------------ */

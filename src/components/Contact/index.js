@@ -17,16 +17,17 @@ export default function ContactMe() {
 
     return (
         <div className="contact-container">
+            <h1 className="contactMe">Contact Me</h1>
             <form onSubmit={sendEmail}>
                 <label for="userName">Your Name</label>
-                <input type="text" className="form-styling" placeholder="Name" name="name"/>
+                <input type="text" className="form-styling" placeholder="Your Name Here..." name="name"/>
 
                 <label for="userEmail">Your Email</label>
                 <input type="text" className="form-styling" placeholder="Email Address" name="email"/>
 
                 <label for="userSubject">Subject</label>
                 <input type="text" className="form-styling" placeholder="Subject" name="subject"/>
-                <textarea className="form-styling" placeholder="Your Message Here" name="message"></textarea>
+                <textarea className="form-styling messageBox" placeholder="Your Message Here" name="message"></textarea>
 
                 <input type="submit" className="btn" value="Send Message"></input>
             </form>
