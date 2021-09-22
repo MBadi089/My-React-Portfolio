@@ -191,9 +191,12 @@ overflow: scroll;
 /* this targets the project images and styles them */
 .project-container img {
     border-radius: 15px;
-    border: 6px solid dodgerblue;
     width: 700px;
     height: 400px;
+}
+
+.project-container img:hover {
+    border: 6px solid dodgerblue;
 }
 /* --------------------------End of Project Section----------------------- */
 
