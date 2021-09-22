@@ -249,7 +249,7 @@ overflow: scroll;
 /* this targets the h1 text (Contact Me) */
 .contactMe {
     text-align: center;
-    color: dodgerblue;
+    color: black;
 }
 
 /* this targets the input and textarea with className form-styling */
