@@ -238,6 +238,7 @@ overflow: scroll;
 .contact-container {
     border-radius: 5px;
     border: 6px solid dodgerblue;
+    background-color: white;
     padding: 20px;
     margin-top: 3rem;
     display: inline-block;
@@ -262,6 +263,11 @@ overflow: scroll;
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+}
+
+.contact-container .form-styling:focus {
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    border: 1px solid rgba(81, 203, 238, 1);
 }
 
 /* this targets the message box and styles the height */
