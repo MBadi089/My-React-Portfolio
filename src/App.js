@@ -10,7 +10,6 @@ import Contact from './components/Contact';
 function App() {
  
   return (
-    <div className="backgroundImage">
     <Router>
       <div>
         <Nav />
@@ -23,7 +22,6 @@ function App() {
         </Switch>
       </div>
     </Router>
-    </div>
   );
 }
 

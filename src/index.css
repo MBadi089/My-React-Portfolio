@@ -1,6 +1,5 @@
 .App {
-    text-align: center;
-    
+    text-align: center;   
 }
 * {
     margin: 0;
@@ -12,14 +11,7 @@ html, body {
     margin: 0;
     padding: 0;
 }
-
-.backgroundImage {
-    background-image: url("./images/w-b-background.png");
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100%;
-}
+ 
 /* ======================================================================= */
 
 /* ------------------------------The Nav Bar------------------------------ */
@@ -31,7 +23,7 @@ html, body {
     align-items: center;
     text-align: center;
     min-height: 15vh;
-    /* background: dodgerblue;     */
+    background: dodgerblue;    
 }
 
 /* this targets the section around headerName */
@@ -44,7 +36,7 @@ html, body {
 /* this targets the Marcos Badillo text and styles it */
 .myName-link {
     font-size: 60px;
-    color: black;
+    color: white;
     list-style: none;
     padding: 15px 15px;
 }
@@ -52,8 +44,8 @@ html, body {
 /* this targets Marcos Badillo text with hover style it */
 .myName-link:hover {
     border-radius: 15px;
-    background: dodgerblue;
-    color: white;
+    background: white;
+    color: dodgerblue;
 }
 
 /* this targets the nav links inside the nav background and styles it */
@@ -69,7 +61,7 @@ html, body {
 /* this targets the About Me, Projects, Cert, Contact Me links */
 .nav-link {
     font-size: 40px;
-    color: black;
+    color: white;
     list-style: none;
     padding: 15px 15px;
 }
@@ -77,8 +69,8 @@ html, body {
 /* this targets the About Me, Projects, Cert, Contact Me with hover style */
 .nav-link:hover {
     border-radius: 15px;
-    background: dodgerblue;
-    color: white;
+    background: white;
+    color: dodgerblue;
 }
 /* ----------------------------End of The Nav Bar------------------------- */
 
@@ -88,25 +80,30 @@ html, body {
 
 /* this targets the container and structures everything inside of it */
 .homepage-container {
+    display: inline-block;
     margin: 0 auto;
-    padding: 0 3rem;
-    margin-top: 1rem;
+    padding: 80px 70px;
+    align-items: center;
     text-align: center;
 }
 
-/* this targets the h1 (Marcos Badillo) */
-h1 {
-    color: black;
-    font-size: 40px;
-    font-weight: 700;
-    margin-bottom: 2rem;
+/* this targets each row in the <section>'s */
+.homepage-row {
+    width: 100%;
+    display: flex;
+}
+
+/* this targets each column in the <section>'s */
+.homepage-col {
+    padding: 150px 80px;
 }
 
 /* this targets the h2 (Entry Level Software Developer) */
-h2 {
+.homepage-container .headerTitle {
     color: black;
-    font-size: 30px;
+    font-size: 45px;
     font-weight: 400;
+    border-bottom: 1px solid black;
 }
 
 /* this targets the img src */
@@ -138,7 +135,6 @@ p {
     margin: 0 auto;
     padding: 10px 10px;
     align-items: center;
-    overflow: scroll;
 }
 
 /* this centers the text for each <section> */
@@ -181,7 +177,6 @@ margin: 0 auto;
 padding: 0 3rem;
 margin-top: 4rem;
 text-align: center;
-overflow: scroll;
 }
 
 /* this targets the h1 text (My Projects) */
