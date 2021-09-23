@@ -1,4 +1,3 @@
-//import React, { useState } from 'react';
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './index.css';
 import Nav from './components/Nav';
@@ -11,6 +10,7 @@ import Contact from './components/Contact';
 function App() {
  
   return (
+    <div className="backgroundImage">
     <Router>
       <div>
         <Nav />
@@ -23,6 +23,7 @@ function App() {
         </Switch>
       </div>
     </Router>
+    </div>
   );
 }
 
