@@ -22,7 +22,7 @@ html, body {
     align-items: center;
     text-align: center;
     min-height: 15vh;
-    background: dodgerblue;    
+    /* background: dodgerblue;     */
 }
 
 /* this targets the section around headerName */
