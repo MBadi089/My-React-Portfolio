@@ -6,7 +6,7 @@ export default function ContactMe() {
     function sendEmail(e) {
         e.preventDefault();
 
-        emailjs.sendForm('gmail', 'gmail_template', e.target, 'user_XsYqdvu1bqpaekVm805ua')
+        emailjs.sendForm('service_gi1yvcz', 'gmail_template', e.target, 'user_XsYqdvu1bqpaekVm805ua')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
