@@ -7,7 +7,7 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Certificate from './components/Certificate';
 import Contact from './components/Contact';
-import Video from './components/Video';
+import BackgroundImage from './images/w-b-background.png';
 
 function App() {
  
