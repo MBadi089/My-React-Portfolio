@@ -4,6 +4,7 @@ import emailjs from 'emailjs-com';
 export default function ContactMe() {
     
     function sendEmail(e) {
+        alert("Your message was sent!")
         e.preventDefault();
 
         emailjs.sendForm('service_gi1yvcz', 'gmail_template', e.target, 'user_XsYqdvu1bqpaekVm805ua')
@@ -12,6 +13,7 @@ export default function ContactMe() {
       }, (error) => {
           console.log(error.text);
       });
+
       e.target.reset()
     }
 
