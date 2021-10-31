@@ -29,6 +29,6 @@ https://user-images.githubusercontent.com/79673757/134780246-477b623e-3644-43ea-
 
 
 ## Deployed App
-https://git.heroku.com/react-my-portfol.git
+https://react-my-portfol.herokuapp.com/
 
 
