@@ -215,6 +215,7 @@ text-align: center;
 /* this targets the h1 text (My Projects) */
 .mycertificate {
     text-align: center;
+    color: white;
 }
 
 /* this targets the project images */
@@ -228,7 +229,7 @@ text-align: center;
 /* this targets the project images and styles them */
 .certificate-container img {
     border-radius: 15px;
-    border: 6px solid dodgerblue;
+    border: 6px solid purple;
     width: 900px;
     height: 600px;
 }
