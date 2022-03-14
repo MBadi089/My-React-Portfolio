@@ -21,8 +21,7 @@ html, body {
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    min-height: 15vh;
-    background: dodgerblue;    
+    min-height: 15vh;    
 }
 
 /* this targets the section around headerName */
