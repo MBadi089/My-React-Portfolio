@@ -212,7 +212,7 @@ text-align: center;
     margin-top: 1rem;
     text-align: center;
     }
-/* this targets the h1 text (My Projects) */
+/* this targets the h1 text (My Certificate) */
 .mycertificate {
     text-align: center;
     color: white;
@@ -242,7 +242,7 @@ text-align: center;
 /* this targets the container and structures everything inside of it */
 .contact-container {
     border-radius: 5px;
-    border: 6px solid dodgerblue;
+    border: 6px solid purple;
     background-color: white;
     padding: 20px;
     margin-top: 3rem;
@@ -283,7 +283,7 @@ text-align: center;
 
 /* this targets the send message button and styles it */
 .contact-container .btn {
-    background-color: dodgerblue;
+    background-color: purple;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -297,13 +297,13 @@ text-align: center;
 
 /* this targts the send message button with a hover effect */
 .contact-container .btn:hover {
-    background-color: dodgerblue;
+    background-color: purple;
     color: white;
 }
 
 /* this targets the send message button with a click animation */
 .contact-container .btn:active {
-    background-color: dodgerblue;
+    background-color: purple;
     box-shadow: 0 5px lightgrey;
     transform: translateY(4px);
 }
