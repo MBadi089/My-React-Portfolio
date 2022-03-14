@@ -40,7 +40,7 @@ export default function ContactMe() {
             <h1 className="contactMe">Contact Me</h1>
             <form onSubmit={sendEmail}>
                 <label for="userName">Your Name</label>
-                <input type="text" className="form-styling" placeholder="Your Name Here..." name="name"/>
+                <input type="text" className="form-styling" placeholder="Your Name Here" name="name"/>
 
                 <label for="userEmail">Your Email</label>
                 <input type="text" className="form-styling" placeholder="Email Address" name="email"/>

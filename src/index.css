@@ -257,6 +257,11 @@ text-align: center;
     color: white;
 }
 
+/*this targets labels inside the Contact Me Form (Your Name, Your Email, Subject) */
+label {
+    color: white;
+}
+
 /* this targets the input and textarea with className form-styling */
 .contact-container .form-styling {
     width: 100%;
@@ -303,7 +308,7 @@ text-align: center;
 /* this targets the send message button with a click animation */
 .contact-container .btn:active {
     background-color: purple;
-    box-shadow: 0 5px lightgrey;
+    box-shadow: 0 2px white;
     transform: translateY(4px);
 }
 /* -----------------------End of Contact MeSection------------------------ */
