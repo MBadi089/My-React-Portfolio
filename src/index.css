@@ -136,13 +136,14 @@ p {
 /* this centers the text for each <section> */
 .myskills, .headerName{
     text-align: center;
+    color: white;
 }
 
 /* this targets each row in the <section>'s */
 .row {
     width: 100%;
     display: flex;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid white;
 }
 
 /* this targets each column in the <section>'s */
