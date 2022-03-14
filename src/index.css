@@ -55,7 +55,7 @@ html, body {
     text-align: right;   
 }
 
-/* this targets the About Me, Projects, Cert, Contact Me links */
+/* this targets the My Skills, Projects, Cert, Contact Me links */
 .nav-link {
     font-size: 40px;
     color: white;
@@ -63,11 +63,10 @@ html, body {
     padding: 15px 15px;
 }
 
-/* this targets the About Me, Projects, Cert, Contact Me with hover style */
+/* this targets the My Skills, Projects, Cert, Contact Me with hover style */
 .nav-link:hover {
-    border-radius: 15px;
-    background: white;
-    color: dodgerblue;
+    text-decoration: underline;
+    color: white;
 }
 /* ----------------------------End of The Nav Bar------------------------- */
 
