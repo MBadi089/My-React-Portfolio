@@ -106,7 +106,7 @@ html, body {
 .homepage-container img {
     margin-top: 2rem;
     margin-bottom: 2rem;
-    border: 6px solid dodgerblue;
+    border: 6px solid black;
     border-radius: 8px;
     width: 500px;
     height: 600px;
@@ -115,7 +115,7 @@ html, body {
 /* this targets the p (the paragraph about me) */
 p {
     font-size: 25px;
-    color: black;
+    color: white;
     line-height: 5rem;
     margin-bottom: 5rem;
 }
