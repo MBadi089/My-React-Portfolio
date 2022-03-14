@@ -41,9 +41,8 @@ html, body {
 
 /* this targets Marcos Badillo text with hover style it */
 .myName-link:hover {
-    border-radius: 15px;
-    background: white;
-    color: dodgerblue;
+    text-decoration: underline;
+    color: white;
 }
 
 /* this targets the nav links inside the nav background and styles it */
