@@ -96,10 +96,10 @@ html, body {
 
 /* this targets the h2 (Entry Level Software Developer) */
 .homepage-container .headerTitle {
-    color: black;
+    color: white;
     font-size: 45px;
     font-weight: 400;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
 }
 
 /* this targets the img src */
