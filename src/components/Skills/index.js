@@ -8,11 +8,11 @@ import video from '../../components/video/RetroSciFi.mp4';
 export default function Skills() {
     return (
         <div className ="skills-container">
-            <video
-        autoPlay
-        loop
-        muted
-        style={{
+        <video
+            autoPlay
+            loop
+            muted
+            style={{
           position: "absolute",
           width: "100%",
           left: "50%",
@@ -40,8 +40,7 @@ export default function Skills() {
                     <h1 className="headerName">Javascript</h1>
                     <p>JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.</p>
                 </div>
-                    <img src={imgLogo2} className="col"/>
-                
+                    <img src={imgLogo2} className="col"/>    
             </section>
 
             <section className="row">
@@ -57,8 +56,7 @@ export default function Skills() {
                     <h1 className="headerName">CSS</h1>
                     <p>Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</p>
                 </div>
-                    <img src={imgLogo4} className="col"/>
-                
+                    <img src={imgLogo4} className="col"/>                
             </section>
         </div>
     )
