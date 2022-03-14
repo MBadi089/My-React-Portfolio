@@ -1,5 +1,6 @@
 import React from 'react'
 import emailjs from 'emailjs-com';
+import video from '../../components/video/RetroSciFi.mp4';
 
 export default function ContactMe() {
     
@@ -19,6 +20,23 @@ export default function ContactMe() {
 
     return (
         <div className="contact-container">
+        <video
+        autoPlay
+        loop
+        muted
+        style={{
+          position: "absolute",
+          width: "100%",
+          left: "50%",
+          top: "50%",
+          height: "100%",
+          objectFit: "cover",
+          transform: "translate(-50%, -50%)",
+          zIndex: "-1"
+        }}
+        >
+          <source src={video} type="video/mp4" />
+        </video>
             <h1 className="contactMe">Contact Me</h1>
             <form onSubmit={sendEmail}>
                 <label for="userName">Your Name</label>
