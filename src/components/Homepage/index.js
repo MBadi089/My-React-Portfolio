@@ -1,9 +1,26 @@
 import React from 'react';
 import image from '../../images/Me.png';
+import video from '../../components/video/RetroSciFi.mp4';
 
 function Homepage() {
     return (
       <div className="homepage-container">
+        <video
+        autoPlay
+        loop
+        style={{
+          position: "absolute",
+          width: "100%",
+          left: "50%",
+          top: "50%",
+          height: "100%",
+          objectFit: "cover",
+          transform: "translate(-50%, -50%)",
+          zIndex: "-1"
+        }}
+        >
+          <source src={video} type="video/mp4" />
+        </video>
         <div className="homepage-row">          
         <img src={image} />
         <div className="homepage-col"> 
