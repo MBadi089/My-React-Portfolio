@@ -5,7 +5,7 @@ import video from '../../components/video/RetroSciFi.mp4';
 export default function Certificate() {
     return (
         <div className ="certificate-container">
-            <video
+        <video
         autoPlay
         loop
         muted
