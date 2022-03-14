@@ -178,6 +178,7 @@ text-align: center;
 /* this targets the h1 text (My Projects) */
 .myprojects {
     text-align: center;
+    color: white;
 }
 
 /* this targets the project images */
@@ -196,7 +197,7 @@ text-align: center;
 }
 
 .project-container img:hover {
-    border: 6px solid dodgerblue;
+    border: 6px solid purple;
 }
 /* --------------------------End of Project Section----------------------- */
 
