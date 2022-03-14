@@ -7,10 +7,10 @@ export default function Projects() {
     return (
         <div>
         <video
-        autoPlay
-        loop
-        muted
-        style={{
+          autoPlay
+          loop
+          muted
+          style={{
           position: "absolute",
           width: "100%",
           left: "50%",
