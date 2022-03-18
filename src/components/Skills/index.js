@@ -41,14 +41,14 @@ export default function Skills() {
                         <Col className="imgLogo"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src={imgLogo4} /></a></Col>
                     </Row>
                     <Row>
-                        <Col className="imgLogo"><a href=""><img src={imgLogo5} /></a></Col>
-                        <Col className="imgLogo"><a href=""><img src={imgLogo6} /></a></Col>
-                        <Col className="imgLogo"><a href=""><img src={imgLogo7} /></a></Col>
-                        <Col className="imgLogo"><a href=""><img src={imgLogo8} /></a></Col>
+                        <Col className="imgLogo"><a href="https://www.mysql.com/"><img src={imgLogo5} /></a></Col>
+                        <Col className="imgLogo"><a href="https://en.wikipedia.org/wiki/SQL"><img src={imgLogo6} /></a></Col>
+                        <Col className="imgLogo"><a href="https://en.wikipedia.org/wiki/NoSQL"><img src={imgLogo7} /></a></Col>
+                        <Col className="imgLogo"><a href="https://getbootstrap.com/docs/5.1/getting-started/introduction/"><img src={imgLogo8} /></a></Col>
                     </Row>
                     <Row>
-                        <Col className="imgLogo"><a href=""><img src={imgLogo9} /></a></Col>
-                        <Col className="imgLogo"><a href=""><img src={imgLogo10} /></a></Col>
+                        <Col className="imgLogo"><a href="https://jquery.com/"><img src={imgLogo9} /></a></Col>
+                        <Col className="imgLogo"><a href="https://www.mongodb.com/"><img src={imgLogo10} /></a></Col>
                     </Row>
                 </div>
             </div>
