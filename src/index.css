@@ -56,7 +56,7 @@ html, body {
 }
 
 /* this targets the My Skills, Projects, Cert, Contact Me links */
-.nav-link {
+li.nav-link {
     font-size: 40px;
     color: white;
     list-style: none;
