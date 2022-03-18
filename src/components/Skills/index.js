@@ -10,6 +10,12 @@ import imgLogo7 from '../../images/nosqlLogo.png';
 import imgLogo8 from '../../images/bootstrapLogo.png';
 import imgLogo9 from '../../images/jqueryLogo.png';
 import imgLogo10 from '../../images/mongodbLogo.png';
+import imgLogo11 from '../../images/webapiLogo.png';
+import imgLogo12 from '../../images/oopLogo.png';
+import imgLogo13 from '../../images/ormLogo.png';
+import imgLogo14 from '../../images/mvcLogo.png';
+import imgLogo15 from '../../images/pwaLogo.png';
+import imgLogo16 from '../../images/githubLogo.png';
 import video from '../../components/video/RetroSciFi.mp4';
 
 export default function Skills() {
@@ -49,6 +55,14 @@ export default function Skills() {
                     <Row>
                         <Col className="imgLogo"><a href="https://jquery.com/"><img src={imgLogo9} /></a></Col>
                         <Col className="imgLogo"><a href="https://www.mongodb.com/"><img src={imgLogo10} /></a></Col>
+                        <Col className="imgLogo"><a href="https://developer.mozilla.org/en-US/docs/Web/API"><img src={imgLogo11} /></a></Col>
+                        <Col className="imgLogo"><a href="https://www.educative.io/blog/object-oriented-programming"><img src={imgLogo12} /></a></Col>
+                    </Row>
+                    <Row>
+                        <Col className="imgLogo"><a href="https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping"><img src={imgLogo13} /></a></Col>
+                        <Col className="imgLogo"><a href="https://developer.mozilla.org/en-US/docs/Glossary/MVC"><img src={imgLogo14} /></a></Col>
+                        <Col className="imgLogo"><a href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps"><img src={imgLogo15} /></a></Col>
+                        <Col className="imgLogo"><a href="https://github.com/MBadi089"><img src={imgLogo16} /></a></Col>
                     </Row>
                 </div>
             </div>
