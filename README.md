@@ -27,7 +27,7 @@ In the project directory, you can run:
 ### `npm start`
 
 ## Play The Demo To See The Portfolio
-https://drive.google.com/file/d/1C4pP2fdx-u67xY6vXSNhjxjGtUf2guRf/view
+<iframe src="https://drive.google.com/file/d/1C4pP2fdx-u67xY6vXSNhjxjGtUf2guRf/preview" width="640" height="480"></iframe>
 
 
 ## Deployed App
