@@ -10,7 +10,7 @@ After completing the UTA Full Stack Web Development Bootcamp I decided to create
 ![Screenshot (142)](https://user-images.githubusercontent.com/79673757/159130295-6cd14971-9066-4281-9a0f-2f5090b1b9c6.png)
 
 ## NPM Packages Used
--emailjs-com
+-emailjs
 -react
 -react bootstrap
 -react-dom
