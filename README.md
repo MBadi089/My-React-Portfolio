@@ -2,15 +2,17 @@
 After completing the UTA Full Stack Web Development Bootcamp I decided to create my own porfolio using React to help showcase what I had learned from the course and from learning other techniques from doing my own research.
 
 ## Images from My React Portfolio Webpage
-![Screenshot (126)](https://user-images.githubusercontent.com/79673757/134779868-e97eb7f8-da4f-4984-a4af-d95af7f524ec.png)
-![Screenshot (127)](https://user-images.githubusercontent.com/79673757/134779871-bd05bb4a-8738-4192-a43c-2cce0b1b2836.png)
-![Screenshot (128)](https://user-images.githubusercontent.com/79673757/134779873-75ec4580-b4a1-476d-b217-07ea53e6af41.png)
-![Screenshot (129)](https://user-images.githubusercontent.com/79673757/134779875-cefff138-bf86-413d-8375-20c26c2f81fd.png)
-![Screenshot (130)](https://user-images.githubusercontent.com/79673757/134779877-ea0528dc-bb4e-4bf3-8832-96d3460f3893.png)
+
+![Screenshot (138)](https://user-images.githubusercontent.com/79673757/159130278-38718fb1-c949-4cc7-bdb1-b1e4a70460b3.png)
+![Screenshot (139)](https://user-images.githubusercontent.com/79673757/159130284-86843289-fe30-4a0a-a0e7-abd0d0959c72.png)
+![Screenshot (140)](https://user-images.githubusercontent.com/79673757/159130287-4ddcd754-67c8-4647-b084-c87a66b35ef2.png)
+![Screenshot (141)](https://user-images.githubusercontent.com/79673757/159130290-ada8cabe-7ea1-4347-ad2a-b51e115d26f2.png)
+![Screenshot (142)](https://user-images.githubusercontent.com/79673757/159130295-6cd14971-9066-4281-9a0f-2f5090b1b9c6.png)
 
 ## NPM Packages Used
 -emailjs-com
 -react
+-react bootstrap
 -react-dom
 -react-router
 -react-router-dom
@@ -25,7 +27,7 @@ In the project directory, you can run:
 ### `npm start`
 
 ## Demo
-https://user-images.githubusercontent.com/79673757/134780246-477b623e-3644-43ea-918a-f981b3dee141.mp4
+
 
 
 ## Deployed App
