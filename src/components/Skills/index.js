@@ -41,28 +41,28 @@ export default function Skills() {
             <h1 className="myskills">My Skills</h1>
                 <div className="skills-container">
                     <Row>
-                        <Col className="imgLogo"><a href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started"><img src={imgLogo1} /></a></Col>
-                        <Col className="imgLogo"><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript"><img src={imgLogo2} /></a></Col>
-                        <Col className="imgLogo"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src={imgLogo3} /></a></Col>
-                        <Col className="imgLogo"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src={imgLogo4} /></a></Col>
+                        <Col className="imgLogo"><a href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started"><img src={imgLogo1} alt="" /></a></Col>
+                        <Col className="imgLogo"><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript"><img src={imgLogo2} alt="" /></a></Col>
+                        <Col className="imgLogo"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src={imgLogo3} alt="" /></a></Col>
+                        <Col className="imgLogo"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src={imgLogo4} alt="" /></a></Col>
                     </Row>
                     <Row>
-                        <Col className="imgLogo"><a href="https://www.mysql.com/"><img src={imgLogo5} /></a></Col>
-                        <Col className="imgLogo"><a href="https://en.wikipedia.org/wiki/SQL"><img src={imgLogo6} /></a></Col>
-                        <Col className="imgLogo"><a href="https://en.wikipedia.org/wiki/NoSQL"><img src={imgLogo7} /></a></Col>
-                        <Col className="imgLogo"><a href="https://getbootstrap.com/docs/5.1/getting-started/introduction/"><img src={imgLogo8} /></a></Col>
+                        <Col className="imgLogo"><a href="https://www.mysql.com/"><img src={imgLogo5} alt="" /></a></Col>
+                        <Col className="imgLogo"><a href="https://en.wikipedia.org/wiki/SQL"><img src={imgLogo6} alt="" /></a></Col>
+                        <Col className="imgLogo"><a href="https://en.wikipedia.org/wiki/NoSQL"><img src={imgLogo7} alt="" /></a></Col>
+                        <Col className="imgLogo"><a href="https://getbootstrap.com/docs/5.1/getting-started/introduction/"><img src={imgLogo8} alt="" /></a></Col>
                     </Row>
                     <Row>
-                        <Col className="imgLogo"><a href="https://jquery.com/"><img src={imgLogo9} /></a></Col>
-                        <Col className="imgLogo"><a href="https://www.mongodb.com/"><img src={imgLogo10} /></a></Col>
-                        <Col className="imgLogo"><a href="https://developer.mozilla.org/en-US/docs/Web/API"><img src={imgLogo11} /></a></Col>
-                        <Col className="imgLogo"><a href="https://www.educative.io/blog/object-oriented-programming"><img src={imgLogo12} /></a></Col>
+                        <Col className="imgLogo"><a href="https://jquery.com/"><img src={imgLogo9} alt="" /></a></Col>
+                        <Col className="imgLogo"><a href="https://www.mongodb.com/"><img src={imgLogo10} alt="" /></a></Col>
+                        <Col className="imgLogo"><a href="https://developer.mozilla.org/en-US/docs/Web/API"><img src={imgLogo11} alt="" /></a></Col>
+                        <Col className="imgLogo"><a href="https://www.educative.io/blog/object-oriented-programming"><img src={imgLogo12} alt="" /></a></Col>
                     </Row>
                     <Row>
-                        <Col className="imgLogo"><a href="https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping"><img src={imgLogo13} /></a></Col>
-                        <Col className="imgLogo"><a href="https://developer.mozilla.org/en-US/docs/Glossary/MVC"><img src={imgLogo14} /></a></Col>
-                        <Col className="imgLogo"><a href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps"><img src={imgLogo15} /></a></Col>
-                        <Col className="imgLogo"><a href="https://github.com/MBadi089"><img src={imgLogo16} /></a></Col>
+                        <Col className="imgLogo"><a href="https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping"><img src={imgLogo13} alt="" /></a></Col>
+                        <Col className="imgLogo"><a href="https://developer.mozilla.org/en-US/docs/Glossary/MVC"><img src={imgLogo14} alt="" /></a></Col>
+                        <Col className="imgLogo"><a href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps"><img src={imgLogo15} alt="" /></a></Col>
+                        <Col className="imgLogo"><a href="https://github.com/MBadi089"><img src={imgLogo16} alt="" /></a></Col>
                     </Row>
                 </div>
             </div>

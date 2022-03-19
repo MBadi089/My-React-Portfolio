@@ -23,7 +23,7 @@ export default function Certificate() {
           <source src={video} type="video/mp4" />
         </video>
             <h1 className="mycertificate">My Certificate</h1>
-            <li className="certImage"><a href="https://techbootcamps.utexas.edu/coding/"><img src={image} /></a></li>
+            <li className="certImage"><a href="https://techbootcamps.utexas.edu/coding/"><img src={image} alt="" /></a></li>
         </div>
     )
 }

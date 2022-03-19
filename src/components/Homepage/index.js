@@ -23,7 +23,7 @@ function Homepage() {
           <source src={video} type="video/mp4" />
         </video>
         <div className="homepage-row">          
-        <img src={image} />
+        <img src={image} alt="" />
         <div className="homepage-col"> 
         <h2 className="headerTitle">Entry Level Software Developer</h2>
         <p className="about-me">I attended the Full-Stack Web Development at The University of Texas at Austin coding bootcamp and received my certificate. 

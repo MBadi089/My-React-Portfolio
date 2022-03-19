@@ -25,8 +25,8 @@ export default function Projects() {
         </video>
             <h1 class="myprojects"> My Projects</h1>
                 <div className="project-container">              
-                    <li className="cardImage"><a href="https://github.com/MBadi089/Glad-You-Game"><img src={img1} /></a></li>
-                    <li className="cardImage"><a href="https://github.com/AlfonsoCerv7/MovieReddy"><img src={img2} /></a></li>            
+                    <li className="cardImage"><a href="https://github.com/MBadi089/Glad-You-Game"><img src={img1} alt="" /></a></li>
+                    <li className="cardImage"><a href="https://github.com/AlfonsoCerv7/MovieReddy"><img src={img2} alt="" /></a></li>            
                 </div>
         </div>
     )
