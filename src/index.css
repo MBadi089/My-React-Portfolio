@@ -64,7 +64,7 @@ li.nav-link {
 }
 
 /* this targets the My Skills, Projects, Cert, Contact Me with hover style */
-.nav-link:hover {
+li.nav-link:hover {
     text-decoration: underline;
     color: white;
 }
