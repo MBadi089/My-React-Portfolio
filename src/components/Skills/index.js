@@ -38,7 +38,7 @@ export default function Skills() {
         >
           <source src={video} type="video/mp4" />
         </video>
-            <h1 class="myskills">My Skills</h1>
+            <h1 className="myskills">My Skills</h1>
                 <div className="skills-container">
                     <Row>
                         <Col className="imgLogo"><a href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started"><img src={imgLogo1} /></a></Col>
