@@ -26,14 +26,14 @@ export default function ContactMe() {
             <h2 className="contactMe">Contact Me</h2>
             <form  name="contact-me-form" id="contact-me-form">
                 <label for="userName">Your Name</label>
-                <input type="text" className="form-styling" placeholder="Your Name Here" id="name" name="name"/>
+                <input type="text" className="form-styling" placeholder="Your Name Here" id="name"/>
 
                 <label for="userEmail">Your Email</label>
-                <input type="text" className="form-styling" placeholder="Email Address" id="email" name="email"/>
+                <input type="text" className="form-styling" placeholder="Email Address" id="email"/>
 
                 <label for="userSubject">Subject</label>
-                <input type="text" className="form-styling" placeholder="Subject" name="subject"/>
-                <textarea className="form-styling messageBox" placeholder="Your Message Here" id="message" name="message"/>
+                <input type="text" className="form-styling" placeholder="Subject" id="subject"/>
+                <textarea className="form-styling messageBox" placeholder="Your Message Here" id="message"/>
 
                 <input type="submit" className="btn" value="Send Message"></input>
             </form>
