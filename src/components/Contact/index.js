@@ -24,7 +24,7 @@ export default function ContactMe() {
         </video>
         
             <h2 className="contactMe">Contact Me</h2>
-            <form  name="contact-me-form" id="contact-me-form">
+            <form id="contact-me-form">
                 <label for="userName">Your Name</label>
                 <input type="text" className="form-styling" placeholder="Your Name Here" id="name"/>
 
