@@ -255,6 +255,15 @@ text-align: center;
     color: white;
 }
 
+.contact-container #error-message {
+    margin-bottom: 20px;
+    padding: 20px;
+    background: red;
+    text-align: center;
+    font-size: 25px;
+    transition: all 0.5s ease;
+}
+
 /*this targets labels inside the Contact Me Form (Your Name, Your Email, Subject) */
 label {
     color: white;
@@ -273,14 +282,10 @@ label {
     outline: none;
 }
 
-.contact-container .form-styling:focus {
-    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
-    border: 1px solid rgba(81, 203, 238, 1);
-}
-
 /* this targets the message box and styles the height */
 .contact-container .messageBox {
     height: 200px;
+    resize: none;
 }
 
 /* this targets the send message button and styles it */

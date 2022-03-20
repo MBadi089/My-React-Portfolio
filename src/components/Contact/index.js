@@ -2,6 +2,15 @@ import React from 'react'
 import video from '../../components/video/RetroSciFi.mp4';
 
 export default function ContactMe() {
+    function validation(){
+        var name = document.getElementById("name").value;
+        var email = document.getElementById("email").value;
+        var subject = document.getElementById("subject").value;
+        var message = document.getElementById("message").value;
+        var errorMessage = document.getElementById("error-message");
+
+        alert(name);
+    }
 
     return (
         <div className="contact-container">
@@ -24,7 +33,9 @@ export default function ContactMe() {
         </video>
         
             <h2 className="contactMe">Contact Me</h2>
-            <form id="contact-me-form">
+            <div id="error-message"></div>
+
+            <form id="contact-me-form" onsubmit= {validation()}>
                 <label for="userName">Your Name</label>
                 <input type="text" className="form-styling" placeholder="Your Name Here" id="name"/>
 
