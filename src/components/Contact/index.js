@@ -33,14 +33,13 @@ export default function ContactMe() {
           <h2 className="contactMe">Contact Me</h2>
             <form id="contact-me-form">
                 <label for="userName">Your Name</label>
-                <input type="text" className="form-styling" placeholder="Your Name Here" id="name"/>
+                <input type="text" className="form-styling" placeholder="Your Name Here" onChange={this.handleChange('name')}/>
 
                 <label for="userEmail">Your Email</label>
-                <input type="text" className="form-styling" placeholder="Email Address" id="email"/>
+                <input type="email" className="form-styling" placeholder="Email Address" onChange={this.handleChange('email')}/>
 
-                <label for="userSubject">Subject</label>
-                <input type="text" className="form-styling" placeholder="Subject" id="subject"/>
-                <textarea className="form-styling messageBox" placeholder="Your Message Here" id="message"/>
+                <label for="messageMe">Message Me</label>
+                <textarea className="form-styling messageBox" placeholder="Leave A Message Here" onChange={this.handleChange('message')}/>
 
                 <input type="submit" className="btn" value="Send Message"></input>
             </form>
