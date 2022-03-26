@@ -26,15 +26,15 @@ export default function ContactMe() {
           </video>
         
           <h2 className="contactMe">Contact Me</h2>
-            <form onSubmit={this.submitForm} id="contact-me-form">
+            <form id="contact-me-form">
                 <label for="userName">Your Name</label>
-                <input type="text" className="form-styling" placeholder="Your Name Here" value={name} onChange={this.handleChange('name')}/>
+                <input type="text" className="form-styling" placeholder="Your Name Here" id="name"/>
 
                 <label for="userEmail">Your Email</label>
-                <input type="email" className="form-styling" placeholder="Email Address" value={email} onChange={this.handleChange('email')}/>
+                <input type="email" className="form-styling" placeholder="Email Address" id="email"/>
 
                 <label for="messageMe">Message Me</label>
-                <textarea className="form-styling messageBox" placeholder="Leave A Message Here" value={message} onChange={this.handleChange('message')}/>
+                <textarea className="form-styling messageBox" placeholder="Leave A Message Here" id="message"/>
 
                 <input type="submit" className="btn" value="Send Message"></input>
             </form>
