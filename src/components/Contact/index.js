@@ -6,25 +6,25 @@ export default function ContactMe() {
 
     return (
         <div className="contact-container">
-        <video
-        autoPlay
-        loop
-        muted
-        style={{
-          position: "absolute",
-          width: "100%",
-          left: "50%",
-          top: "50%",
-          height: "100%",
-          objectFit: "cover",
-          transform: "translate(-50%, -50%)",
-          zIndex: "-1"
+          <video
+             autoPlay
+            loop
+            muted
+            style={{
+            position: "absolute",
+            width: "100%",
+            left: "50%",
+            top: "50%",
+            height: "100%",
+            objectFit: "cover",
+            transform: "translate(-50%, -50%)",
+            zIndex: "-1"
         }}
         >
-          <source src={video} type="video/mp4" />
-        </video>
+            <source src={video} type="video/mp4" />
+          </video>
         
-            <h2 className="contactMe">Contact Me</h2>
+          <h2 className="contactMe">Contact Me</h2>
             <div id="error-message"></div>
 
             <form id="contact-me-form">
