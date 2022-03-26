@@ -1,8 +1,14 @@
-import React from 'react'
+import React from 'react';
 import video from '../../components/video/RetroSciFi.mp4';
 
 export default function ContactMe() {
-    
+    state = {
+        name: '',
+        email: '',
+        message: '',
+        emailStatus: ''
+
+    }
 
     return (
         <div className="contact-container">
@@ -25,8 +31,6 @@ export default function ContactMe() {
           </video>
         
           <h2 className="contactMe">Contact Me</h2>
-            <div id="error-message"></div>
-
             <form id="contact-me-form">
                 <label for="userName">Your Name</label>
                 <input type="text" className="form-styling" placeholder="Your Name Here" id="name"/>
