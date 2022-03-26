@@ -1,27 +1,9 @@
-import { render } from '@testing-library/react';
+// import { render } from '@testing-library/react';
 import React from 'react';
 import video from '../../components/video/RetroSciFi.mp4';
 
 export default function ContactMe() {
-    state = {
-        name: '',
-        email: '',
-        message: '',
-        emailStatus: ''
-    }
 
-    handleChange = input => e => {
-      this.setState({
-          [input]: e.target.value
-      });
-    }
-
-    render(){
-      const {
-          name,
-          email,
-          message
-      } = this.state;
 
     return (
         <div className="contact-container">
@@ -44,7 +26,7 @@ export default function ContactMe() {
           </video>
         
           <h2 className="contactMe">Contact Me</h2>
-            <form id="contact-me-form">
+            <form onSubmit={this.submitForm} id="contact-me-form">
                 <label for="userName">Your Name</label>
                 <input type="text" className="form-styling" placeholder="Your Name Here" value={name} onChange={this.handleChange('name')}/>
 
@@ -57,6 +39,5 @@ export default function ContactMe() {
                 <input type="submit" className="btn" value="Send Message"></input>
             </form>
         </div>
-    );
+    )
   }
-}
