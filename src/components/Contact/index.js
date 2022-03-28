@@ -3,7 +3,7 @@ import emailjs from 'emailjs-com';
 import video from '../../components/video/RetroSciFi.mp4';
 
 export default function ContactMe() {
-const [userName, setUserName] = useState("");
+    const [userName, setUserName] = useState("");
     const [userEmail, setUserEmail] = useState("");
     const [userSubject, setUserSubject] = useState("");
     const [userMessage, setUserMessage] = useState("");
@@ -17,6 +17,14 @@ const [userName, setUserName] = useState("");
 
       e.preventDefault();
       const isValid = formValidation();
+      if(isValid){
+         setUserName("");
+         setUserEmail("");
+         setUserSubject("");
+         setUserMessage("");
+         
+         alert("Your Message Was Sent!");
+      }
 
       emailjs.sendForm('service_gi1yvcz', 'gmail_template', e.target, 'user_XsYqdvu1bqpaekVm805ua')
         .then((result) => {
