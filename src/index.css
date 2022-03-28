@@ -216,7 +216,7 @@ text-align: center;
     color: white;
 }
 
-/* this targets the project images */
+/* this targets the certificate image */
 .certImage {
     list-style: none;
     display: inline;
@@ -224,12 +224,16 @@ text-align: center;
     padding: 25px 25px;     
 }
 
-/* this targets the project images and styles them */
+/* this targets the certificate image and styles it */
 .certificate-container img {
     border-radius: 15px;
-    border: 6px solid purple;
     width: 900px;
     height: 600px;
+}
+
+/*this targets the certificate and adds a hover effect */
+.certificate-container img:hover {
+    border: 6px solid purple;
 }
 /* -----------------------End of Certificate Section---------------------- */
 

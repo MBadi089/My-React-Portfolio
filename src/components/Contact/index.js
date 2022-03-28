@@ -51,22 +51,22 @@ export default function ContactMe() {
         //an if statement for email address
 
         if(userSubject.trim().length < 3) {
-            userSubjectErr.userSubjectShort = "Please enter more than 3 characters in the subject box";
+            userSubjectErr.userSubjectShort = "Please enter more than 3 characters";
             isValid = false;
         }
 
         if(userSubject.trim().length > 20) {
-            userSubjectErr.userSubjectLong = "Please keep the characters under 20 in the subject box";
+            userSubjectErr.userSubjectLong = "Please keep the characters under 20";
             isValid = false;
         }
 
         if(userMessage.trim().length < 4) {
-            userMessageErr.userMessageShort = "Please enter more than 4 characters in the message box";
+            userMessageErr.userMessageShort = "Please enter more than 4 characters";
             isValid = false;
         }
 
         if(userMessage.trim().length > 300) {
-            userMessageErr.userMessageLong = "Please enter less than 300 characters in the message box";
+            userMessageErr.userMessageLong = "Please enter less than 300 characters";
             isValid = false;
         }
 
