@@ -1,6 +1,7 @@
 import React ,{useState} from 'react';
 import emailjs from 'emailjs-com';
 import video from '../../components/video/RetroSciFi.mp4';
+import { Checkmark } from 'react-checkmark';
 
 export default function ContactMe() {
     const [userName, setUserName] = useState("");
@@ -52,10 +53,15 @@ export default function ContactMe() {
         }
 
         //this targets the userEmail (Enter Your Email field) input and validates the user to use their email address
-        // if(emailRegex.test(userEmail)){
-        //     userEmailErr.userEmailIsNotValid = "Please enter a valid email address";
-        //     isValid = false;
-        // }
+        if(userEmail.value.match(emailRegex)){
+            <Checkmark size='medium'/>
+            isValid = true;
+        }
+
+        else {
+            userEmailErr.userEmailIsNotValid = "Please enter a valid email address";
+            isValid = false;
+        }
 
         //this targets the userSubject (Subject field) input and validates the user to USE MORE than 3 characters
         if(userSubject.trim().length < 3) {
