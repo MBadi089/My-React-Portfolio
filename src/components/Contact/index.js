@@ -43,30 +43,41 @@ export default function ContactMe() {
         const userMessageErr = {};
         let isValid = true;
 
+        const emailRegex = '/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/';
+
+        //this targets the userName (Your Name field) input and validates the user to USE MORE than 5 characters
         if(userName.trim().length < 5) {
             userNameErr.userNameShort = "Please enter your full name";
             isValid = false;
         }
 
-        //an if statement for email address
+        //this targets the userEmail (Enter Your Email field) input and validates the user to use their email address
+        // if(emailRegex.test(userEmail)){
+        //     userEmailErr.userEmailIsNotValid = "Please enter a valid email address";
+        //     isValid = false;
+        // }
 
+        //this targets the userSubject (Subject field) input and validates the user to USE MORE than 3 characters
         if(userSubject.trim().length < 3) {
             userSubjectErr.userSubjectShort = "Please enter more than 3 characters";
             isValid = false;
         }
 
+        //this targets the userSubject (Subject field) input and validates the user to USE LESS than 20 characters
         if(userSubject.trim().length > 20) {
             userSubjectErr.userSubjectLong = "Please keep the characters under 20";
             isValid = false;
         }
 
+        //this targets the userMessage (Message Me field) input and validates the user to USE MORE than 4 characters
         if(userMessage.trim().length < 4) {
             userMessageErr.userMessageShort = "Please enter more than 4 characters";
             isValid = false;
         }
 
-        if(userMessage.trim().length > 300) {
-            userMessageErr.userMessageLong = "Please enter less than 300 characters";
+        //this targets the userMessage (Message Me field) input and validates the user to USE LESS than 300 characters
+        if(userMessage.trim().length > 250) {
+            userMessageErr.userMessageLong = "Please enter less than 250 characters";
             isValid = false;
         }
 
