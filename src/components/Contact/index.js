@@ -27,6 +27,7 @@ export default function ContactMe() {
          alert("Your Message Was Sent!");
       }
 
+      //react emailjs form from emailjs webpage syntax to send emails to my personal email
       emailjs.sendForm('service_gi1yvcz', 'gmail_template', e.target, 'user_XsYqdvu1bqpaekVm805ua')
         .then((result) => {
             console.log(result.text);
@@ -37,6 +38,7 @@ export default function ContactMe() {
         e.target.reset()
     }
 
+    //this validates the user input in the contact me form
     const formValidation = () => {
         const userNameErr = {};
         const userEmailErr = {};
