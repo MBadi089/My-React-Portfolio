@@ -45,7 +45,7 @@ export default function ContactMe() {
         const userMessageErr = {};
         let isValid = true;
 
-        const emailRegex = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+        // const emailRegex = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
 
         //this targets the userName (Your Name field) input and validates the user to USE MORE than 5 characters
         if(userName.trim().length < 5) {
@@ -54,7 +54,7 @@ export default function ContactMe() {
         }
 
         //this targets the userEmail (Enter Your Email field) input and validates the user to use their email address
-        if(userEmail.value.include(emailRegex)){
+        if(userEmail.includes("0")){
             <Checkmark size='medium'/>
             isValid = true;
         }
