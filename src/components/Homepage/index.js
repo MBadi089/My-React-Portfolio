@@ -26,7 +26,7 @@ function Homepage() {
         <a href="https://www.linkedin.com/in/mbadillo089/"><img src={image} alt="" /></a>
         <div className="homepage-col"> 
         <h2 className="headerTitle">Entry Level Software Developer</h2>
-        <p className="about-me">I attended the Full-Stack Web Development at The University of Texas at Austin coding bootcamp and received my certificate. 
+        <p className="about-me">I completed the Full-Stack Web Development at The University of Texas at Austin coding bootcamp and received my certificate. 
                                 I am an entry-level Software Developer seeking full time opportunities developing full stack technologies and APIs  .
         </p>
         </div>
