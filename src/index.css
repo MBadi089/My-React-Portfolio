@@ -102,14 +102,18 @@ li.nav-link:hover {
     border-bottom: 1px solid white;
 }
 
-/* this targets the img src */
+/* this targets the img src (picture of myself) */
 .homepage-container img {
     margin-top: 2rem;
     margin-bottom: 2rem;
-    border: 6px solid black;
-    border-radius: 8px;
-    width: 500px;
+    border-radius: 15px;
+    width: 450px;
     height: 600px;
+}
+
+/* this targets the img (picture of myself) to have a hover effect */
+.homepage-container img:hover {
+    border: 6px solid purple;
 }
 
 /* this targets the p (the paragraph about me) */
