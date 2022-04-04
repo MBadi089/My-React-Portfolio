@@ -18,24 +18,23 @@ export default function ContactMe() {
 
       e.preventDefault();
       const isValid = formValidation();
-      if(isValid){
+      if(!isValid) return;
+
          setUserName("");
          setUserEmail("");
          setUserSubject("");
          setUserMessage("");
          
-         alert("Your Message Was Sent!");
-      }
-
+               
       //react emailjs form from emailjs webpage syntax to send emails to my personal email
       emailjs.sendForm('service_gi1yvcz', 'gmail_template', e.target, 'user_XsYqdvu1bqpaekVm805ua')
         .then((result) => {
             console.log(result.text);
+            e.target.reset()
+            alert("Your Message Was Sent!");
         }, (error) => {
             console.log(error.text);
         });
-
-        e.target.reset()
     }
 
     //this validates the user input in the contact me form
@@ -46,7 +45,7 @@ export default function ContactMe() {
         const userMessageErr = {};
         let isValid = true;
 
-        const emailRegex = '^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$';
+        const emailRegex = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
 
         //this targets the userName (Your Name field) input and validates the user to USE MORE than 5 characters
         if(userName.trim().length < 5) {
@@ -55,7 +54,7 @@ export default function ContactMe() {
         }
 
         //this targets the userEmail (Enter Your Email field) input and validates the user to use their email address
-        if(userEmail.value.match(emailRegex)){
+        if(userEmail.value.include(emailRegex)){
             <Checkmark size='medium'/>
             isValid = true;
         }
@@ -90,9 +89,9 @@ export default function ContactMe() {
         }
 
         setUserNameErr(userNameErr);
-        setUserEmailErr(userEmail);
-        setUserSubjectErr(userSubject);
-        setUserMessageErr(userMessage);
+        setUserEmailErr(userEmailErr);
+        setUserSubjectErr(userSubjectErr);
+        setUserMessageErr(userMessageErr);
         return isValid;
         
     }
